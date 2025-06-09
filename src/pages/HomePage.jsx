@@ -8,7 +8,7 @@ const HomePage = () => {
       <section className="relative w-full h-screen overflow-hidden">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
-          src="/hero.mp4"
+          src={`${import.meta.env.BASE_URL}hero.mp4`}
           autoPlay
           loop
           muted

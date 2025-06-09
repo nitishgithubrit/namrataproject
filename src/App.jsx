@@ -6,7 +6,8 @@ import Navbar from "./components/Navbar";
 // import HeroVideo from "./components/HeroVideo";
 // import Services from "./components/Services";
 import HomePage from "./pages/HomePage";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+
 import Internship from "./pages/Internship";
 import Technologies from "./pages/Technologies";
 import DigitalMarketing from "./pages/DigitalMarketing";
